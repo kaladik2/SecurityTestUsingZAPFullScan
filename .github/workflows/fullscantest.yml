@@ -1,11 +1,5 @@
 
-name: penetrationtestusingzapfullscan
-
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+on: [push]
 
 jobs:
   zap_scan:
