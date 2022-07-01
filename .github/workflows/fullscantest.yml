@@ -15,4 +15,4 @@ jobs:
       - name: ZAP Scan
         uses: zaproxy/action-baseline@v0.7.0
         with:
-          target: 'https://rap.niaidawsqa.net/#!/dashboard/home'
+          target: 'https://rap.niaidawsqa.net/'
